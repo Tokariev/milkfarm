@@ -22,7 +22,7 @@
         </div>
         <div class = "farmer">
             <?php
-                
+            
             include_once 'db.php';
    
                 $sql = "SELECT * FROM farmer "
@@ -41,8 +41,11 @@
             ?>
         </div>
         <div id="add">
-            <button type="button" onclick="window.location.href='add.php'" id="add_btn">Add Bauernhof</button>
+            
+            <button type="button" onclick="window.location.href='add.php'" class="btn">Add Bauernhof</button><br>
+            <button type="button" onclick="geocoding()" class="btn">Show geolocation</button>
+            Adresse: 
+            <input type="text" name="address" id="myaddress" size="55">
         </div>
-        
     </body> 
 </html>

@@ -26,17 +26,22 @@ and open the template in the editor.
 }
 
 #map{
-    height: 400px;
+    height: 200px;
     width: 100%;
 }
 #add{
     font-family: "Calibri";
     margin-top: 10px;
 }
-#add_btn{
+.btn{
     height:50px;
+    width: 180px;
     font-family: "Calibri";
     font-size: 14px;
+}
+#map_canvas{
+   height: 400px;
+    width: 100%; 
 }
 
         
